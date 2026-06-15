@@ -2,7 +2,7 @@
 
 An open-source, fully 3D-printable 7-DOF humanoid robotic arm designed as an accessible research platform. Built with high-torque Feetech serial bus servos and a Raspberry Pi 4, it supports ROS2 for motion planning/simulation, VR teleoperation for intuitive control, and autonomous/agentic operation via an onboard camera. With all CAD files, BOM, and software fully open source, anyone can build and expand on it for under $800.
 
-<img width="832" height="683" alt="image" src="https://github.com/user-attachments/assets/5fb91a15-26a2-44ff-a8f1-01cf45a75f68" />
+<img width="621" height="754" alt="image" src="https://github.com/user-attachments/assets/43c9c1ac-a309-42b5-b6e7-95668deaa1e7" />
 
 ---
 
