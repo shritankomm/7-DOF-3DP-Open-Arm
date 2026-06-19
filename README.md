@@ -29,6 +29,8 @@ An open-source, fully 3D-printable 7-DOF humanoid robotic arm designed as an acc
 
 All parts, links, and pricing can be found in BOM.md
 
+Link to BOM Spreadsheet - https://docs.google.com/spreadsheets/d/1n2eNZaHsdRUR-5rRqqR8Au6a7Qyu3wT80XMrWUhEQkk/edit?usp=sharing
+
 ---
 
 ## Repository Structure
