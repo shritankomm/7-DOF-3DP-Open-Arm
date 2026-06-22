@@ -33,6 +33,13 @@ Link to BOM Spreadsheet - https://docs.google.com/spreadsheets/d/1n2eNZaHsdRUR-5
 
 ---
 
+## Electrical
+
+This is the preliminary wiring diagram for the project.
+
+<img src="wiring.svg" alt="Wiring Diagram" width="100%">
+
+
 ## Repository Structure
 
 - CAD/          - CAD files (STL/STEP/Onshape Public Link), screenshots, Parts List 
