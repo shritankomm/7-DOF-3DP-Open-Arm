@@ -42,7 +42,7 @@ This is the preliminary wiring diagram for the project.
 
 ## Repository Structure
 
-- CAD/          - CAD files (STL/STEP/Onshape Public Link), screenshots, Parts List 
+- CAD/          - CAD files (STL/STEP/Onshape Public Link), screenshots, Parts List, 3d print settings 
 - software/     - **Software + electrical diagram**, firmware, and control code (coming soon)
 - docs/      - Build journal entries and progress updates/documentation
 - BOM.md        - Full bill of materials with links and prices
