@@ -37,7 +37,7 @@ Link to BOM Spreadsheet - https://docs.google.com/spreadsheets/d/1n2eNZaHsdRUR-5
 
 This is the preliminary wiring diagram for the project.
 
-<img width="743" height="849" alt="image" src="https://github.com/user-attachments/assets/b410663b-bc5b-4935-b103-ea39768e73d6" />
+<img width="743" height="849" alt="image" src="https://github.com/user-attachments/assets/5452ae14-7f24-4c54-bd59-7601f64ba934" />
 
 
 ## Repository Structure
