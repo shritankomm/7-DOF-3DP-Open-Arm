@@ -46,7 +46,7 @@ This is the preliminary wiring diagram for the project.
 - software/     - Software + electrical diagram, firmware, and control code (coming soon)
 - docs/      - Build journal entries and progress updates/documentation
 - BOM.md        - Full bill of materials with links and prices
-- instructions.md - Build and assembly instructions (coming soon)
+- instructions.md - Build and assembly instructions 
 - pictures.md - pictures of the fully assembled arm 
 - README.md     - This file
 
