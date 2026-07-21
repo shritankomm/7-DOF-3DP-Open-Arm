@@ -49,7 +49,7 @@ This guide covers the full build of the 7 DOF humanoid arm system, including the
 
 ### Before you start — heat set inserts + extra info/tips
 
-For any part with holes that are 0.157 in with a 0.2 in chamfer, press M3 heat set inserts into them using a soldering iron
+- For any part with holes that are 0.157 in with a 0.2 in chamfer, press M3 heat set inserts into them using a soldering iron
 
 <img width="943" height="1162" alt="image" src="https://github.com/user-attachments/assets/e00e997c-fa5e-47ea-8e20-66e58bfbd691" />
 
