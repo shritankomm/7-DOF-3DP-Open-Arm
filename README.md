@@ -61,10 +61,8 @@ Full step-by-step assembly instructions can be found in instructions.md. Follow 
 ## Coming Soon
 
 - ROS2 packages and launch files
-- Vision capabilities 
 - VR teleoperation integration
 - Full open-source firmware and control code
-- Complete build instruction guide
 
 ## License
 Hardware designs: CERN-OHL-S v2 (or CC BY 4.0)
