@@ -200,7 +200,7 @@ Fasteners: M3 6mm motor screws (9x)
 
 ## Second Arm
 
-The second arm is a mirror of the first. Print the mirrored versions of the parts in the print list, then repeat Steps 1 through 10. Servo orientation flips, so check the horn position against the CAD before tightening anything down.
+The second arm is a mirror of the first. Print the mirrored versions of the parts in the print list, then repeat Steps 1 through 13. Servo orientation flips, so check the horn position against the CAD before tightening anything down.
 
 <img width="470" height="660" alt="image" src="https://github.com/user-attachments/assets/99f07275-7a2f-4c7a-bf45-ec53963a9c2f" />
 
