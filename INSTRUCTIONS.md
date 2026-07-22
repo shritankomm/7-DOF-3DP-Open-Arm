@@ -46,6 +46,9 @@ This guide covers the full build of the 7 DOF humanoid arm system, including the
 
 ## Section 2 — Assembly of Arms and Stand
 
+<img width="960" height="1264" alt="image" src="https://github.com/user-attachments/assets/ed898c85-7b1e-4089-8726-11372a629f4e" />
+
+
 
 ### Before you start — heat set inserts + extra info/tips
 
