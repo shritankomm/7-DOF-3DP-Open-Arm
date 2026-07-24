@@ -94,10 +94,8 @@ SOFTWARE/
             └── warehouse_db.launch.py     # (optional) motion warehouse database
 ```
 
-**★ = the files most people start with.**
-**⚙ = calibration files specific to the author's physical arm — recalibrate for yours.**
 
-## Quick "where do I go for…"
+## Where do I go for guide
 - **Just run the sim** → `README.md` → *Run the simulation* (`demo.launch.py`)
 - **Understand the robot** → `src/humanoid_arms/urdf/humanoid_arms_final.urdf` + `meshes/`
 - **Capture & replay a pose** → `scripts/capture_keyframes.py`, `scripts/replay_keyframes.py`
