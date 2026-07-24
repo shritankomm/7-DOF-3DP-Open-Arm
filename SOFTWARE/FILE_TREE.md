@@ -1,7 +1,6 @@
 # File Tree — `SOFTWARE/`
 
-A guide to what's in this folder and where to find things. This is a self-contained
-**ROS 2 (Jazzy) workspace**: build it with `colcon build` from the `SOFTWARE/` root.
+A guide to what's in this folder and where to find things. 
 
 ```
 SOFTWARE/
