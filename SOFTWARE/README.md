@@ -1,7 +1,7 @@
 # Humanoid Arms — ROS 2 Control & Simulation Software
 
-A **ROS 2 (Jazzy)** software stack for an open-source bilateral **7-DOF humanoid
-arm**: robot description (URDF/meshes), MoveIt motion planning, RViz/Gazebo
+A **ROS 2 (Jazzy)** software stack for an open-source **7-DOF humanoid
+arms**: robot description (URDF/meshes), MoveIt motion planning, RViz/Gazebo
 simulation, and a set of Python tools for **kinesthetic capture, replay, hardware
 control, and real-time bilateral teleoperation** of the physical arm.
 
