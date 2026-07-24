@@ -9,6 +9,8 @@ This folder is a self-contained **ROS 2 workspace** built with `colcon` — it h
 two ROS 2 packages (`humanoid_arms` and `humanoid_arms_moveit_config`, each with a
 standard `package.xml`). Clone it, build it, and run.
 
+CHECK FILE_TREE.md TO SEE WHERE FILES ARE
+
 ---
 
 ## Requirements
