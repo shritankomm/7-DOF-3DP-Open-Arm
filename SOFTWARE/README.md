@@ -220,8 +220,4 @@ running; hardware scripts need the servo bus powered and readable on `/dev/ttyAC
 - Confirm the servo bus responds (`ping_all_ids.py`) with 12 V on *before* recording;
   a powered-off bus silently logs frozen fallback values.
 
----
 
-## License
-
-MIT (see `LICENSE`).
