@@ -1,0 +1,72 @@
+{
+  "type": "mirror_calibration",
+  "note": "R_target = R0 + sign*(L_now - L0), in raw ticks. leader=left, follower=right.",
+  "port": "/dev/ttyACM0",
+  "baud": 1000000,
+  "pairs": [
+    {
+      "joint": "leftshoulderpitch",
+      "left_id": 2,
+      "right_id": 10,
+      "L0": 3676,
+      "R0": 1637,
+      "sign": -1
+    },
+    {
+      "joint": "leftshoulderroll",
+      "left_id": 3,
+      "right_id": 11,
+      "L0": 146,
+      "R0": 4046,
+      "sign": 1
+    },
+    {
+      "joint": "leftarmyaw",
+      "left_id": 4,
+      "right_id": 12,
+      "L0": 340,
+      "R0": 2080,
+      "sign": 1
+    },
+    {
+      "joint": "leftelbowpitch",
+      "left_id": 5,
+      "right_id": 13,
+      "L0": 2079,
+      "R0": 1928,
+      "sign": -1
+    },
+    {
+      "joint": "leftforearmyaw",
+      "left_id": 6,
+      "right_id": 14,
+      "L0": 335,
+      "R0": 2032,
+      "sign": 1
+    },
+    {
+      "joint": "leftwristpitch",
+      "left_id": 7,
+      "right_id": 15,
+      "L0": 550,
+      "R0": 634,
+      "sign": -1
+    },
+    {
+      "joint": "leftwristroll",
+      "left_id": 8,
+      "right_id": 16,
+      "L0": 636,
+      "R0": 787,
+      "sign": 1
+    },
+    {
+      "joint": "leftgripper",
+      "left_id": 9,
+      "right_id": 17,
+      "L0": 3000,
+      "R0": 693,
+      "sign": -1
+    }
+  ]
+}

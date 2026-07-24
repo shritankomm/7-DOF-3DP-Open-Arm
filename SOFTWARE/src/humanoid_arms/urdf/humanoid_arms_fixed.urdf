@@ -1,0 +1,1274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="humanoid_arms">
+    <link name="4040_extrusion">
+        <inertial>
+            <mass value="2.87528" />
+            <origin xyz="0 8.55321e-19 0.3175" rpy="0 -0 0" />
+            <inertia ixx="0.0969988" ixy="0" ixz="0" iyy="0.0969988" iyz="0" izz="0.000766741" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/_4040_extrusion.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+                <color rgba="0.615686 0.811765 0.929412 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="arm_yaw_connector">
+        <inertial>
+            <mass value="0.0400862" />
+            <origin xyz="0.0108869 -0.0242783 0.0224562" rpy="0 -0 0" />
+            <inertia ixx="1.94211e-05" ixy="2.1744e-07" ixz="1.79133e-07" iyy="1.58062e-05" iyz="1.44715e-06" izz="2.08295e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.156563 -0.03357 -0.502455" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/arm_yaw_connector.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.062745_0.266667_0.490196_0.000000_0.000000">
+                <color rgba="0.0627451 0.266667 0.490196 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="bicep_screw_bar">
+        <inertial>
+            <mass value="0.0415979" />
+            <origin xyz="-0.004445 0.0115793 -0.0699535" rpy="0 -0 0" />
+            <inertia ixx="0.000104648" ixy="-1.42195e-15" ixz="1.32563e-15" iyy="0.000101676" iyz="1.45397e-06" izz="3.5202e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.164025 0.00948 -0.52753" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/bicep_screw_bar.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="bicep_screw_bar_1">
+        <inertial>
+            <mass value="0.0416004" />
+            <origin xyz="0.004445 0.0115799 -0.0699366" rpy="0 -0 0" />
+            <inertia ixx="0.000104537" ixy="0" ixz="0" iyy="0.000101565" iyz="1.45667e-06" izz="3.52049e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.127625 0.00948 -0.52753" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/bicep_screw_bar_1.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="bottom_stationary_claw_arm">
+        <inertial>
+            <mass value="0.0304237" />
+            <origin xyz="0.00453712 0.0276565 -0.00855211" rpy="0 -0 0" />
+            <inertia ixx="1.45042e-05" ixy="1.65402e-07" ixz="1.82957e-06" iyy="8.61794e-06" iyz="-1.848e-06" izz="8.21972e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.178531 0.0228874 -0.0364807" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/bottom_stationary_claw_arm.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.490196_0.086275_0.556863_0.000000_0.000000">
+                <color rgba="0.490196 0.0862745 0.556863 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="chest_plate">
+        <inertial>
+            <mass value="0.158882" />
+            <origin xyz="-1.47634e-17 -0.00509001 -0.0153834" rpy="0 -0 0" />
+            <inertia ixx="0.000110572" ixy="0" ixz="0" iyy="0.000703802" iyz="1.43622e-08" izz="0.00059597" />
+        </inertial>
+        <visual>
+            <origin xyz="5.63785e-18 0.03 -0.6223" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/chest_plate.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+                <color rgba="0.647059 0.647059 0.647059 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="chest_plate_1">
+        <inertial>
+            <mass value="0.158882" />
+            <origin xyz="3.66326e-17 0.00509001 -0.0153834" rpy="0 -0 0" />
+            <inertia ixx="0.000110572" ixy="0" ixz="0" iyy="0.000703802" iyz="-1.43622e-08" izz="0.00059597" />
+        </inertial>
+        <visual>
+            <origin xyz="5.63785e-18 -0.03 -0.6223" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/chest_plate_1.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+                <color rgba="0.647059 0.647059 0.647059 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="chest_plate_holder">
+        <inertial>
+            <mass value="0.0611626" />
+            <origin xyz="9.84487e-18 0.03 1.11022e-16" rpy="0 -0 0" />
+            <inertia ixx="3.08585e-05" ixy="0" ixz="0" iyy="2.93002e-05" iyz="0" izz="5.32237e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="5.20417e-18 0.03 -0.6223" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/chest_plate_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.231373_0.380392_0.705882_0.000000_0.000000">
+                <color rgba="0.231373 0.380392 0.705882 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="chest_plate_holder_1">
+        <inertial>
+            <mass value="0.0611626" />
+            <origin xyz="7.38006e-18 2.57088e-11 -0.0127" rpy="0 -0 0" />
+            <inertia ixx="3.08585e-05" ixy="0" ixz="0" iyy="2.93002e-05" iyz="0" izz="5.32237e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="2.73936e-18 6.17777e-19 -0.635" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/chest_plate_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.231373_0.380392_0.705882_0.000000_0.000000">
+                <color rgba="0.231373 0.380392 0.705882 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="-7.78933e-09 0.0184791 -0.0128065" rpy="0 -0 0" />
+            <inertia ixx="1.43571e-05" ixy="6.85102e-12" ixz="5.55754e-12" iyy="1.20399e-05" iyz="9.53144e-08" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.145325 0.0178074 -0.091965" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_1">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.0199935 -0.0161209 -0.01025" rpy="0 -0 0" />
+            <inertia ixx="7.71474e-06" ixy="9.53144e-08" ixz="-5.55754e-12" iyy="1.20399e-05" iyz="-6.85102e-12" izz="1.43571e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.113525 -0.0159 -0.61398" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_1.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_2">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.0156791 0.01025 -0.0161935" rpy="0 -0 0" />
+            <inertia ixx="1.20399e-05" ixy="6.85102e-12" ixz="-9.53144e-08" iyy="1.43571e-05" iyz="-5.55754e-12" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.130425 0.00948 -0.384805" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_2.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_3">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="1.1421e-09 0.013046 -0.0182339" rpy="0 -0 0" />
+            <inertia ixx="1.38702e-05" ixy="8.08684e-13" ixz="-7.66124e-13" iyy="7.39659e-06" iyz="2.67957e-07" izz="1.18235e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.145813 -0.000770014 -0.2904" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_3.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_4">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.01025 0.0156791 -0.0161935" rpy="0 -0 0" />
+            <inertia ixx="1.43571e-05" ixy="-6.85102e-12" ixz="5.55754e-12" iyy="1.20399e-05" iyz="-9.53144e-08" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.164955 0.0150074 -0.0959622" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_4.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_5">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.0156791 0.01025 0.00450648" rpy="0 -0 0" />
+            <inertia ixx="1.20399e-05" ixy="6.85102e-12" ixz="-9.53144e-08" iyy="1.43571e-05" iyz="-5.55754e-12" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.129925 0.00948 -0.139675" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_5.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_6">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="1.1421e-09 0.013046 -0.0182339" rpy="0 -0 0" />
+            <inertia ixx="1.38702e-05" ixy="8.08684e-13" ixz="-7.66124e-13" iyy="7.39659e-06" iyz="2.67957e-07" izz="1.18235e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.146313 -0.000770014 -0.537055" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_6.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="composant3_7">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="-0.0154339 0.01025 -0.015954" rpy="0 -0 0" />
+            <inertia ixx="1.18235e-05" ixy="-7.6613e-13" ixz="2.67957e-07" iyy="1.38702e-05" iyz="8.0869e-13" izz="7.39659e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.0988 0.01025 -0.64035" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Composant3_7.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="elbow_pitch_part">
+        <inertial>
+            <mass value="0.038435" />
+            <origin xyz="-0.0173025 0.00423555 -0.035971" rpy="0 -0 0" />
+            <inertia ixx="2.63301e-05" ixy="2.00109e-07" ixz="-1.54804e-06" iyy="3.90692e-05" iyz="1.01931e-06" izz="1.88785e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.127625 -0.00077 -0.355805" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/elbow_pitch_part.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="elbow_to_bicep_motor_connector">
+        <inertial>
+            <mass value="0.0273027" />
+            <origin xyz="0.0185431 0.0102296 -0.0068729" rpy="0 -0 0" />
+            <inertia ixx="8.77408e-06" ixy="-5.19877e-10" ixz="1.09243e-07" iyy="6.62458e-06" iyz="-1.17868e-08" izz="8.95698e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.164025 0.00948 -0.388605" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/elbow_to_bicep_motor_connector.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="forearm_screw_bar">
+        <inertial>
+            <mass value="0.0349863" />
+            <origin xyz="0.004445 0.01025 -0.0374007" rpy="0 -0 0" />
+            <inertia ixx="6.61693e-05" ixy="0" ixz="0" iyy="6.29398e-05" iyz="0" izz="3.69035e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.127625 0.00948 -0.261786" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/forearm_screw_bar.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="forearm_screw_bar_1">
+        <inertial>
+            <mass value="0.0349863" />
+            <origin xyz="-0.004445 0.01025 -0.037425" rpy="0 -0 0" />
+            <inertia ixx="6.62746e-05" ixy="0" ixz="0" iyy="6.30451e-05" iyz="0" izz="3.69035e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.164024 0.00948 -0.261786" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/forearm_screw_bar_1.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="forearm_yaw_part">
+        <inertial>
+            <mass value="0.0352035" />
+            <origin xyz="0.01023 -0.0224211 0.0205984" rpy="0 -0 0" />
+            <inertia ixx="1.57606e-05" ixy="-7.4153e-09" ixz="-2.27404e-09" iyy="1.25343e-05" iyz="3.17118e-07" izz="1.59537e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.156063 -0.03357 -0.2558" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/forearm_yaw_part.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.062745_0.266667_0.490196_0.000000_0.000000">
+                <color rgba="0.0627451 0.266667 0.490196 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_31">
+        <inertial>
+            <mass value="0.0748477" />
+            <origin xyz="0.0152204 0.03 -0.0204798" rpy="0 -0 0" />
+            <inertia ixx="6.55377e-05" ixy="0" ixz="2.87602e-07" iyy="3.90557e-05" iyz="0" izz="4.9858e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.07366 0.03 -0.63754" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_31.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.537255_0.854902_0.827451_0.000000_0.000000">
+                <color rgba="0.537255 0.854902 0.827451 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_35">
+        <inertial>
+            <mass value="0.0507257" />
+            <origin xyz="0.00228689 -0.0167954 -0.0441378" rpy="0 -0 0" />
+            <inertia ixx="4.45349e-05" ixy="1.72561e-08" ixz="-4.53463e-07" iyy="3.27229e-05" iyz="-3.12493e-07" izz="3.06126e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.146325 -0.0177 -0.60373" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_35.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_37">
+        <inertial>
+            <mass value="0.0400862" />
+            <origin xyz="0.00961314 -0.0242783 0.0224562" rpy="0 -0 0" />
+            <inertia ixx="1.94211e-05" ixy="-2.1744e-07" ixz="-1.79133e-07" iyy="1.58062e-05" iyz="1.44715e-06" izz="2.08295e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.136063 -0.03357 -0.502455" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_37.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.062745_0.266667_0.490196_0.000000_0.000000">
+                <color rgba="0.0627451 0.266667 0.490196 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_38">
+        <inertial>
+            <mass value="0.0273027" />
+            <origin xyz="0.0178569 0.0102296 -0.0030729" rpy="0 -0 0" />
+            <inertia ixx="8.77408e-06" ixy="5.1987e-10" ixz="-1.09243e-07" iyy="6.62458e-06" iyz="-1.17868e-08" izz="8.95698e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.127625 0.00948 -0.384805" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_38.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_40">
+        <inertial>
+            <mass value="0.0416004" />
+            <origin xyz="-0.004445 0.0115799 -0.0699366" rpy="0 -0 0" />
+            <inertia ixx="0.000104537" ixy="0" ixz="0" iyy="0.000101565" iyz="1.45667e-06" izz="3.52049e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.127625 0.00948 -0.52753" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_40.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_41">
+        <inertial>
+            <mass value="0.0415979" />
+            <origin xyz="0.004445 0.0115793 -0.0699535" rpy="0 -0 0" />
+            <inertia ixx="0.000104648" ixy="2.01614e-15" ixz="-1.045e-15" iyy="0.000101676" iyz="1.45397e-06" izz="3.5202e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.164025 0.00948 -0.52753" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_41.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_42">
+        <inertial>
+            <mass value="0.038435" />
+            <origin xyz="-0.0190975 0.00423555 -0.035971" rpy="0 -0 0" />
+            <inertia ixx="2.63301e-05" ixy="-2.00109e-07" ixz="1.54804e-06" iyy="3.90692e-05" iyz="1.01931e-06" izz="1.88785e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.164025 -0.00077 -0.355805" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_42.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_43">
+        <inertial>
+            <mass value="0.0352035" />
+            <origin xyz="0.01027 -0.0224211 0.0205984" rpy="0 -0 0" />
+            <inertia ixx="1.57606e-05" ixy="7.4153e-09" ixz="2.27404e-09" iyy="1.25343e-05" iyz="3.17118e-07" izz="1.59537e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.135563 -0.03357 -0.2558" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_43.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.062745_0.266667_0.490196_0.000000_0.000000">
+                <color rgba="0.0627451 0.266667 0.490196 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_45">
+        <inertial>
+            <mass value="0.0152781" />
+            <origin xyz="0.0179198 0.01025 -0.00112174" rpy="0 -0 0" />
+            <inertia ixx="3.9156e-06" ixy="-1.02413e-14" ixz="-1.11485e-07" iyy="3.86199e-06" iyz="0" izz="4.20011e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.127626 0.00948 -0.160375" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_45.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_47">
+        <inertial>
+            <mass value="0.0349863" />
+            <origin xyz="-0.004445 0.01025 -0.0564507" rpy="0 -0 0" />
+            <inertia ixx="6.61693e-05" ixy="0" ixz="0" iyy="6.29398e-05" iyz="0" izz="3.69035e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.127625 0.00948 -0.280836" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_47.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_48">
+        <inertial>
+            <mass value="0.0349863" />
+            <origin xyz="0.004445 0.01025 -0.056475" rpy="0 -0 0" />
+            <inertia ixx="6.62746e-05" ixy="0" ixz="0" iyy="6.30451e-05" iyz="0" izz="3.69035e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.164024 0.00948 -0.280836" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_48.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.372549_0.654902_0.239216_0.000000_0.000000">
+                <color rgba="0.372549 0.654902 0.239216 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_50">
+        <inertial>
+            <mass value="0.0168176" />
+            <origin xyz="0.0181892 0.000612818 -0.0186515" rpy="0 -0 0" />
+            <inertia ixx="6.93833e-06" ixy="-1.06536e-10" ixz="3.62929e-09" iyy="7.19549e-06" iyz="1.02901e-07" izz="8.39598e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.127125 -0.00077 -0.131375" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_50.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.737255_0.937255_0.917647_0.000000_0.000000">
+                <color rgba="0.737255 0.937255 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_51">
+        <inertial>
+            <mass value="0.0202264" />
+            <origin xyz="0.0144941 0.017844 0.00564815" rpy="0 -0 0" />
+            <inertia ixx="6.74007e-06" ixy="3.27063e-07" ixz="-8.85388e-07" iyy="6.45374e-06" iyz="2.07724e-08" izz="8.08184e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.135075 0.0150074 -0.062965" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_51.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+                <color rgba="0.647059 0.647059 0.647059 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_53">
+        <inertial>
+            <mass value="0.00569577" />
+            <origin xyz="3.09435e-05 -0.00534853 -0.0235591" rpy="0 -0 0" />
+            <inertia ixx="2.86187e-06" ixy="1.88098e-10" ixz="-3.72579e-07" iyy="3.13721e-06" iyz="-1.34375e-07" izz="3.20689e-07" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.175205 0.0178074 -0.0669622" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_53.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_54">
+        <inertial>
+            <mass value="0.0334216" />
+            <origin xyz="-0.000571143 -0.0159 -0.0256216" rpy="0 -0 0" />
+            <inertia ixx="2.21748e-05" ixy="0" ixz="-1.54465e-08" iyy="1.98991e-05" iyz="0" izz="3.35424e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.125687 -0.0167926 -0.064058" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_54.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.490196_0.086275_0.556863_0.000000_0.000000">
+                <color rgba="0.490196 0.0862745 0.556863 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_55">
+        <inertial>
+            <mass value="0.0304237" />
+            <origin xyz="-0.00453712 0.0276565 -0.00855211" rpy="0 -0 0" />
+            <inertia ixx="1.45042e-05" ixy="-1.65402e-07" ixz="-1.82957e-06" iyy="8.61794e-06" iyz="-1.848e-06" izz="8.21972e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.178531 0.0228874 -0.0364807" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_55.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.490196_0.086275_0.556863_0.000000_0.000000">
+                <color rgba="0.490196 0.0862745 0.556863 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="part_56">
+        <inertial>
+            <mass value="0.00369444" />
+            <origin xyz="-0.0044473 0.01025 0.000337856" rpy="0 -0 0" />
+            <inertia ixx="9.47775e-07" ixy="0" ixz="5.10981e-11" iyy="3.57783e-08" iyz="0" izz="9.5656e-07" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.067 0.01025 -0.64415" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/Part_56.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.537255_0.854902_0.827451_0.000000_0.000000">
+                <color rgba="0.537255 0.854902 0.827451 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="r_offset_shoulder_motor_holder">
+        <inertial>
+            <mass value="0.0354222" />
+            <origin xyz="0.0119671 -0.000562638 0.000415977" rpy="0 -0 0" />
+            <inertia ixx="1.58127e-05" ixy="4.12484e-07" ixz="-3.84501e-07" iyy="1.05327e-05" iyz="1.43182e-07" izz="1.13814e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="-0.02286 -1.86483e-17 -0.06779" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/R_offset_shoulder_motor_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="root" />
+    <link name="servo">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.0161209 0.01025 -0.0199935" rpy="0 -0 0" />
+            <inertia ixx="1.20399e-05" ixy="-6.84975e-12" ixz="9.53144e-08" iyy="1.43571e-05" iyz="-5.56439e-12" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.162225 0.00948 -0.388605" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_1">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="7.79543e-09 0.0184791 -0.0128065" rpy="0 -0 0" />
+            <inertia ixx="1.43571e-05" ixy="-6.84982e-12" ixz="-5.56433e-12" iyy="1.20399e-05" iyz="9.53144e-08" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.145325 0.0178074 -0.091965" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_1.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_2">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="0.0154339 0.01025 -0.015954" rpy="0 -0 0" />
+            <inertia ixx="1.18235e-05" ixy="7.69623e-13" ixz="-2.67957e-07" iyy="1.38702e-05" iyz="8.12923e-13" izz="7.39659e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0988 0.01025 -0.64035" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_2.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_3">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="-1.14449e-09 0.013046 -0.0182339" rpy="0 -0 0" />
+            <inertia ixx="1.38702e-05" ixy="-8.1286e-13" ixz="7.69568e-13" iyy="7.39659e-06" iyz="2.67957e-07" izz="1.18235e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.146313 -0.000770014 -0.537055" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_3.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_4">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="-0.01025 0.0156791 -0.0161935" rpy="0 -0 0" />
+            <inertia ixx="1.43571e-05" ixy="6.84976e-12" ixz="-5.56439e-12" iyy="1.20399e-05" iyz="-9.53144e-08" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.164955 0.0150074 -0.0959622" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_4.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_5">
+        <inertial>
+            <mass value="0.053985" />
+            <origin xyz="-1.14449e-09 0.013046 -0.0182339" rpy="-1.12701e-62 2.41519e-47 -2.44929e-16" />
+            <inertia ixx="1.38702e-05" ixy="-8.1286e-13" ixz="7.69568e-13" iyy="7.39659e-06" iyz="2.67957e-07" izz="1.18235e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.145813 -0.000770014 -0.2904" rpy="-1.12701e-62 2.41519e-47 -2.44929e-16" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_5.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_6">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="0.000220918 -7.79551e-09 -0.0223935" rpy="0 -0 0" />
+            <inertia ixx="1.20399e-05" ixy="-6.84975e-12" ixz="9.53144e-08" iyy="1.43571e-05" iyz="-5.56439e-12" izz="7.71474e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.145825 -0.00077 -0.166575" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_6.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="servo_7">
+        <inertial>
+            <mass value="0.0549949" />
+            <origin xyz="-0.0223935 -0.000220918 7.7954e-09" rpy="0 -0 0" />
+            <inertia ixx="7.71474e-06" ixy="-9.53144e-08" ixz="5.5643e-12" iyy="1.20399e-05" iyz="-6.84984e-12" izz="1.43571e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.111125 -2.82797e-17 -0.60373" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/servo_7.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+                <color rgba="0.917647 0.917647 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_motor_holder">
+        <inertial>
+            <mass value="0.0354222" />
+            <origin xyz="-0.0119671 -0.000562638 0.000415977" rpy="0 -0 0" />
+            <inertia ixx="1.58127e-05" ixy="-4.12484e-07" ixz="3.84501e-07" iyy="1.05327e-05" iyz="1.43182e-07" izz="1.13814e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.02286 -1.86483e-17 -0.06779" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/shoulder_motor_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_pitch_adapter">
+        <inertial>
+            <mass value="0.0748477" />
+            <origin xyz="0.00763958 0.03 -0.0204798" rpy="0 -0 0" />
+            <inertia ixx="6.55377e-05" ixy="0" ixz="-2.87602e-07" iyy="3.90557e-05" iyz="0" izz="4.9858e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.09652 0.03 -0.63754" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/shoulder_pitch_adapter.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.537255_0.854902_0.827451_0.000000_0.000000">
+                <color rgba="0.537255 0.854902 0.827451 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_pitch_motor_back_plate">
+        <inertial>
+            <mass value="0.00369444" />
+            <origin xyz="0.0044473 0.01025 0.000337856" rpy="0 -0 0" />
+            <inertia ixx="9.47775e-07" ixy="0" ixz="-5.10981e-11" iyy="3.57783e-08" iyz="0" izz="9.5656e-07" />
+        </inertial>
+        <visual>
+            <origin xyz="0.067 0.01025 -0.64415" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/shoulder_pitch_motor_back_plate.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.537255_0.854902_0.827451_0.000000_0.000000">
+                <color rgba="0.537255 0.854902 0.827451 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_roll_part">
+        <inertial>
+            <mass value="0.0507257" />
+            <origin xyz="-0.00228689 0.0196046 -0.0441378" rpy="0 -0 0" />
+            <inertia ixx="4.45349e-05" ixy="-1.72561e-08" ixz="4.53463e-07" iyy="3.27229e-05" iyz="-3.12493e-07" izz="3.06126e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.146325 0.0187 -0.60373" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/shoulder_roll_part.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="stationary_claw_arm">
+        <inertial>
+            <mass value="0.0334216" />
+            <origin xyz="0.000571143 0.0159 -0.0256216" rpy="0 -0 0" />
+            <inertia ixx="2.21748e-05" ixy="0" ixz="1.54465e-08" iyy="1.98991e-05" iyz="0" izz="3.35424e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.125687 0.0150074 -0.064058" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/stationary_claw_arm.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.490196_0.086275_0.556863_0.000000_0.000000">
+                <color rgba="0.490196 0.0862745 0.556863 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="top_non_stationary_claw_arm">
+        <inertial>
+            <mass value="0.00569577" />
+            <origin xyz="-3.09435e-05 -0.00534853 -0.0235591" rpy="0 -0 0" />
+            <inertia ixx="2.86187e-06" ixy="-1.88098e-10" ixz="3.72579e-07" iyy="3.13721e-06" iyz="-1.34375e-07" izz="3.20689e-07" />
+        </inertial>
+        <visual>
+            <origin xyz="0.175205 0.0178074 -0.0669622" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/top_non_stationary_claw_arm.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.341176_0.776471_0.741176_0.000000_0.000000">
+                <color rgba="0.341176 0.776471 0.741176 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="wrist_holder">
+        <inertial>
+            <mass value="0.0202264" />
+            <origin xyz="-0.0144941 0.017844 0.00564815" rpy="0 -0 0" />
+            <inertia ixx="6.74007e-06" ixy="-3.27063e-07" ixz="8.85388e-07" iyy="6.45374e-06" iyz="2.07724e-08" izz="8.08184e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.135075 0.0150074 -0.062965" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/wrist_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+                <color rgba="0.647059 0.647059 0.647059 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="wrist_pitch_motor_holder">
+        <inertial>
+            <mass value="0.0152781" />
+            <origin xyz="0.0184784 0.01025 -0.00492174" rpy="0 -0 0" />
+            <inertia ixx="3.9156e-06" ixy="1.6817e-15" ixz="1.11485e-07" iyy="3.86199e-06" iyz="0" izz="4.20011e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.164024 0.00948 -0.164175" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/wrist_pitch_motor_holder.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.941176_0.874510_0.678431_0.000000_0.000000">
+                <color rgba="0.941176 0.87451 0.678431 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="wrist_pitch_to_roll_connector">
+        <inertial>
+            <mass value="0.0168176" />
+            <origin xyz="-0.0181892 0.000612818 -0.0186515" rpy="0 -0 0" />
+            <inertia ixx="6.93833e-06" ixy="1.06538e-10" ixz="-3.6293e-09" iyy="7.19549e-06" iyz="1.02901e-07" izz="8.39598e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0.127125 -0.00077 -0.131375" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://humanoid_arms/meshes/wrist_pitch_to_roll_connector.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.737255_0.937255_0.917647_0.000000_0.000000">
+                <color rgba="0.737255 0.937255 0.917647 1" />
+            </material>
+        </visual>
+    </link>
+    <joint name="fastened_1" type="fixed">
+        <origin xyz="-3.03577e-18 -0.03 -0.0127" rpy="0 -0 0" />
+        <axis xyz="-1.77636e-16 1 0" />
+        <parent link="chest_plate_holder_1" />
+        <child link="chest_plate" />
+    </joint>
+    <joint name="fastened_10" type="fixed">
+        <origin xyz="0.02514 0.01975 0.00281" rpy="0 6.89615e-48 0" />
+        <axis xyz="1 1.77636e-16 -4.37096e-16" />
+        <parent link="part_31" />
+        <child link="composant3_7" />
+    </joint>
+    <joint name="fastened_11" type="fixed">
+        <origin xyz="-0.009525 3.66018e-18 0" rpy="0 4.37096e-16 1.77636e-16" />
+        <axis xyz="1 -1.77636e-16 4.37096e-16" />
+        <parent link="shoulder_motor_holder" />
+        <child link="servo_7" />
+    </joint>
+    <joint name="fastened_12" type="fixed">
+        <origin xyz="-0.01025 0.0328 -0.0346" rpy="2.09638e-32 6.39936e-47 -3.55271e-16" />
+        <axis xyz="3.39378e-47 -9.86076e-32 1" />
+        <parent link="servo_3" />
+        <child link="arm_yaw_connector" />
+    </joint>
+    <joint name="fastened_13" type="fixed">
+        <origin xyz="-0.00746215 -0.04305 0.025075" rpy="0 7.2656e-53 0" />
+        <axis xyz="1 -3.02761e-17 1.58527e-19" />
+        <parent link="arm_yaw_connector" />
+        <child link="bicep_screw_bar" />
+    </joint>
+    <joint name="fastened_14" type="fixed">
+        <origin xyz="0.0289379 -0.04305 0.025075" rpy="0 -4.54823e-64 0" />
+        <axis xyz="-1 0 3.39378e-47" />
+        <parent link="arm_yaw_connector" />
+        <child link="bicep_screw_bar_1" />
+    </joint>
+    <joint name="fastened_15" type="fixed">
+        <origin xyz="0 8.67362e-18 -0.138925" rpy="0 -7.2656e-53 0" />
+        <axis xyz="-1 3.02761e-17 -1.58527e-19" />
+        <parent link="bicep_screw_bar" />
+        <child link="elbow_to_bicep_motor_connector" />
+    </joint>
+    <joint name="fastened_16" type="fixed">
+        <origin xyz="0.0018 0 0" rpy="-1.63779e-125 -4.54823e-64 3.72453e-189" />
+        <axis xyz="-1 0 3.39378e-47" />
+        <parent link="elbow_to_bicep_motor_connector" />
+        <child link="servo" />
+    </joint>
+    <joint name="fastened_17" type="fixed">
+        <origin xyz="-0.01025 0.0328 -0.0346" rpy="2.17813e-18 2.74494e-17 -2.45471e-16" />
+        <axis xyz="3.39378e-47 -9.86076e-32 1" />
+        <parent link="servo_5" />
+        <child link="forearm_yaw_part" />
+    </joint>
+    <joint name="fastened_18" type="fixed">
+        <origin xyz="-0.00796215 -0.04305 0.005986" rpy="-1.83651e-18 3.20532e-24 -3.02761e-17" />
+        <axis xyz="1 0 1.58527e-19" />
+        <parent link="forearm_yaw_part" />
+        <child link="forearm_screw_bar_1" />
+    </joint>
+    <joint name="fastened_19" type="fixed">
+        <origin xyz="0.0284379 -0.04305 0.005986" rpy="-9.18255e-19 2.74361e-17 3.30904e-24" />
+        <axis xyz="-1 0 3.39378e-47" />
+        <parent link="forearm_yaw_part" />
+        <child link="forearm_screw_bar" />
+    </joint>
+    <joint name="fastened_2" type="fixed">
+        <origin xyz="1.43115e-17 3.46945e-18 -0.0498706" rpy="0 -0 0" />
+        <axis xyz="1.77636e-16 -1 0" />
+        <parent link="chest_plate" />
+        <child link="chest_plate_holder" />
+    </joint>
+    <joint name="fastened_20" type="fixed">
+        <origin xyz="0 -1.73472e-18 -0.097611" rpy="-9.18257e-19 2.74361e-17 3.30904e-24" />
+        <axis xyz="-1 0 -1.58527e-19" />
+        <parent link="forearm_screw_bar_1" />
+        <child link="wrist_pitch_motor_holder" />
+    </joint>
+    <joint name="fastened_21" type="fixed">
+        <origin xyz="0.0181991 0.01025 0.0024" rpy="9.18253e-19 2.72776e-17 2.08452e-25" />
+        <axis xyz="-3.39378e-47 -9.86076e-32 1" />
+        <parent link="wrist_pitch_motor_holder" />
+        <child link="servo_6" />
+    </joint>
+    <joint name="fastened_22" type="fixed">
+        <origin xyz="0.00938848 0 0.00109304" rpy="3.51435e-146 -0 0" />
+        <axis xyz="-1.07601e-65 -1 -6.07077e-16" />
+        <parent link="wrist_holder" />
+        <child link="stationary_claw_arm" />
+    </joint>
+    <joint name="fastened_23" type="fixed">
+        <origin xyz="0.01025 0.0028 -0.029" rpy="-3.41618e-19 -8.20046e-17 3.08178e-17" />
+        <axis xyz="1.07601e-65 1 6.07077e-16" />
+        <parent link="servo_1" />
+        <child link="wrist_holder" />
+    </joint>
+    <joint name="fastened_24" type="fixed">
+        <origin xyz="-0.02988 -2.08167e-17 0.0329972" rpy="1.21415e-15 6.5322e-81 -1.07601e-65" />
+        <axis xyz="0 -1 6.07077e-16" />
+        <parent link="wrist_holder" />
+        <child link="servo_4" />
+    </joint>
+    <joint name="fastened_25" type="fixed">
+        <origin xyz="-0.00332615 -0.00508 -0.0304815" rpy="-1.21415e-15 6.5322e-81 1.07601e-65" />
+        <axis xyz="-0 -1 6.07077e-16" />
+        <parent link="top_non_stationary_claw_arm" />
+        <child link="bottom_stationary_claw_arm" />
+    </joint>
+    <joint name="fastened_26" type="fixed">
+        <origin xyz="0.011925 0.0159 0.01025" rpy="-7.76438e-32 -6.89615e-48 -1.77636e-16" />
+        <axis xyz="-1.77636e-16 1 7.76438e-32" />
+        <parent link="r_offset_shoulder_motor_holder" />
+        <child link="composant3_1" />
+    </joint>
+    <joint name="fastened_27" type="fixed">
+        <origin xyz="-0.01025 0.0328 -0.0346" rpy="9.98104e-32 -4.37096e-16 -2.6951e-47" />
+        <axis xyz="-3.39378e-47 -9.86076e-32 1" />
+        <parent link="composant3_6" />
+        <child link="part_37" />
+    </joint>
+    <joint name="fastened_28" type="fixed">
+        <origin xyz="0.0279621 -0.04305 0.025075" rpy="0 7.2656e-53 0" />
+        <axis xyz="-1 -3.02761e-17 1.58527e-19" />
+        <parent link="part_37" />
+        <child link="part_41" />
+    </joint>
+    <joint name="fastened_29" type="fixed">
+        <origin xyz="-0.00843785 -0.04305 0.025075" rpy="0 -0 0" />
+        <axis xyz="1 0 3.39378e-47" />
+        <parent link="part_37" />
+        <child link="part_40" />
+    </joint>
+    <joint name="fastened_3" type="fixed">
+        <origin xyz="-4.77049e-18 0.03 -0.0127" rpy="0 -0 1.77636e-16" />
+        <axis xyz="-1.77636e-16 -1 0" />
+        <parent link="chest_plate_holder_1" />
+        <child link="chest_plate_1" />
+    </joint>
+    <joint name="fastened_30" type="fixed">
+        <origin xyz="0 1.04083e-17 -0.142725" rpy="0 -0 0" />
+        <axis xyz="-1 0 -3.39378e-47" />
+        <parent link="part_40" />
+        <child link="part_38" />
+    </joint>
+    <joint name="fastened_31" type="fixed">
+        <origin xyz="0.0028 0 0" rpy="0 -0 0" />
+        <axis xyz="-1 0 -3.39378e-47" />
+        <parent link="part_38" />
+        <child link="composant3_2" />
+    </joint>
+    <joint name="fastened_32" type="fixed">
+        <origin xyz="-0.01025 0.0328 -0.0346" rpy="-3.90763e-51 -1.58527e-19 4.92994e-32" />
+        <axis xyz="-3.39378e-47 -9.86076e-32 1" />
+        <parent link="composant3_3" />
+        <child link="part_43" />
+    </joint>
+    <joint name="fastened_33" type="fixed">
+        <origin xyz="0.0284621 -0.04305 0.025036" rpy="-3.08149e-33 9.86076e-32 3.02761e-17" />
+        <axis xyz="-1 0 1.58527e-19" />
+        <parent link="part_43" />
+        <child link="part_48" />
+    </joint>
+    <joint name="fastened_34" type="fixed">
+        <origin xyz="-0.00793785 -0.04305 0.025036" rpy="0 -0 1.91584e-47" />
+        <axis xyz="1 0 3.39378e-47" />
+        <parent link="part_43" />
+        <child link="part_47" />
+    </joint>
+    <joint name="fastened_35" type="fixed">
+        <origin xyz="0 1.80411e-16 -0.120461" rpy="-3.90763e-51 -1.58527e-19 4.92994e-32" />
+        <axis xyz="-1 0 1.58527e-19" />
+        <parent link="part_47" />
+        <child link="part_45" />
+    </joint>
+    <joint name="fastened_36" type="fixed">
+        <origin xyz="0.0022991 -1.12757e-16 -0.0207" rpy="0 -0 2.18953e-47" />
+        <axis xyz="-1 0 -3.39378e-47" />
+        <parent link="part_45" />
+        <child link="composant3_5" />
+    </joint>
+    <joint name="fastened_37" type="fixed">
+        <origin xyz="-0.01025 0.0028 -0.029" rpy="2.21867e-31 -2.73847e-16 1.78315e-31" />
+        <axis xyz="-1.07601e-65 1 6.07077e-16" />
+        <parent link="composant3" />
+        <child link="part_51" />
+    </joint>
+    <joint name="fastened_38" type="fixed">
+        <origin xyz="0.02988 -2.08167e-17 0.0329972" rpy="1.27676e-15 -5.23853e-32 -3.30696e-32" />
+        <axis xyz="0 -1 6.07077e-16" />
+        <parent link="part_51" />
+        <child link="composant3_4" />
+    </joint>
+    <joint name="fastened_39" type="fixed">
+        <origin xyz="-0.00938848 0.0318 0.00109304" rpy="-4.00604e-80 6.16298e-33 -1.30003e-47" />
+        <axis xyz="-1.07601e-65 1 6.07077e-16" />
+        <parent link="part_51" />
+        <child link="part_54" />
+    </joint>
+    <joint name="fastened_4" type="fixed">
+        <origin xyz="8.67362e-19 -6.17777e-19 0.635" rpy="0 -0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="4040_extrusion" />
+        <child link="chest_plate_holder_1" />
+    </joint>
+    <joint name="fastened_40" type="fixed">
+        <origin xyz="0.00332615 -0.00508 -0.0304815" rpy="-1.27676e-15 6.31705e-32 -3.54294e-32" />
+        <axis xyz="0 -1 6.07077e-16" />
+        <parent link="part_53" />
+        <child link="part_55" />
+    </joint>
+    <joint name="fastened_5" type="fixed">
+        <origin xyz="0.07366 1.38778e-17 0.01524" rpy="0 -0 0" />
+        <axis xyz="1.77636e-16 -1 0" />
+        <parent link="chest_plate" />
+        <child link="part_31" />
+    </joint>
+    <joint name="fastened_6" type="fixed">
+        <origin xyz="-0.09652 -1.73472e-17 0.01524" rpy="0 -0 3.55271e-16" />
+        <axis xyz="-1.77636e-16 -1 0" />
+        <parent link="chest_plate" />
+        <child link="shoulder_pitch_adapter" />
+    </joint>
+    <joint name="fastened_7" type="fixed">
+        <origin xyz="-0.00228 0.01975 0.00281" rpy="0 -6.89615e-48 0" />
+        <axis xyz="-1 1.77636e-16 -4.37096e-16" />
+        <parent link="shoulder_pitch_adapter" />
+        <child link="servo_2" />
+    </joint>
+    <joint name="fastened_8" type="fixed">
+        <origin xyz="0.0318 -1.73472e-18 0.0038" rpy="0 -0 0" />
+        <axis xyz="-1 1.77636e-16 -4.37096e-16" />
+        <parent link="servo_2" />
+        <child link="shoulder_pitch_motor_back_plate" />
+    </joint>
+    <joint name="fastened_9" type="fixed">
+        <origin xyz="-0.0318 5.20417e-18 0.0038" rpy="0 -6.89615e-48 0" />
+        <axis xyz="1 1.77636e-16 -4.37096e-16" />
+        <parent link="composant3_7" />
+        <child link="part_56" />
+    </joint>
+    <joint name="fixed_node_to_root_joint" type="fixed">
+        <origin xyz="0.00267516 -2.07063e-09 -0.00192313" rpy="0 -0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="root" />
+        <child link="4040_extrusion" />
+    </joint>
+    <joint name="leftarmyaw" type="revolute">
+        <origin xyz="3.33067e-16 0.01947 -0.066675" rpy="-2.09638e-32 -4.96497e-47 5.20424e-79" />
+        <axis xyz="3.39378e-47 -9.86076e-32 1" />
+        <parent link="shoulder_roll_part" />
+        <child link="servo_3" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="6.28319" />
+    </joint>
+    <joint name="leftelbowpitch" type="revolute">
+        <origin xyz="0.0346 0.01025 -0.0328" rpy="-1.64817e-40 0 0" />
+        <axis xyz="-1 0 3.39378e-47" />
+        <parent link="servo" />
+        <child link="elbow_pitch_part" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="2.61799" />
+    </joint>
+    <joint name="leftforearmyaw" type="revolute">
+        <origin xyz="-0.0182 -3.29814e-16 -0.065405" rpy="-2.51976e-18 5.47402e-17 2.44929e-16" />
+        <axis xyz="3.39378e-47 -9.86076e-32 1" />
+        <parent link="elbow_pitch_part" />
+        <child link="servo_5" />
+        <limit effort="2.94" velocity="4.76" lower="-6.28319" upper="0" />
+    </joint>
+    <joint name="leftgripper" type="revolute">
+        <origin xyz="-0.01025 -0.0028 -0.029" rpy="0 -0 0" />
+        <axis xyz="0 1 -6.07077e-16" />
+        <parent link="servo_4" />
+        <child link="top_non_stationary_claw_arm" />
+        <limit effort="2.94" velocity="4.76" lower="-0.401426" upper="0.872665" />
+    </joint>
+    <joint name="leftshoulderpitch" type="revolute">
+        <origin xyz="-0.0028 0.01025 -0.029" rpy="7.76438e-32 -4.37096e-16 -1.77636e-16" />
+        <axis xyz="1 0 0" />
+        <parent link="servo_2" />
+        <child link="shoulder_motor_holder" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="6.28319" />
+    </joint>
+    <joint name="leftshoulderroll" type="revolute">
+        <origin xyz="-0.0352 -0.0187 -3.33067e-16" rpy="0 -0 0" />
+        <axis xyz="1.77636e-16 1 7.76438e-32" />
+        <parent link="servo_7" />
+        <child link="shoulder_roll_part" />
+        <limit effort="2.94" velocity="4.76" lower="-0.436332" upper="1.74533" />
+    </joint>
+    <joint name="leftwristpitch" type="revolute">
+        <origin xyz="0.0187 2.2237e-16 -0.0352" rpy="2.51976e-18 -5.48988e-17 -9.71161e-25" />
+        <axis xyz="-1 0 3.39378e-47" />
+        <parent link="servo_6" />
+        <child link="wrist_pitch_to_roll_connector" />
+        <limit effort="2.94" velocity="4.76" lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="leftwristroll" type="revolute">
+        <origin xyz="-0.0182 -0.0185774 -0.03941" rpy="2.31112e-32 2.17239e-66 -1.87995e-34" />
+        <axis xyz="-1.07601e-65 -1 -6.07077e-16" />
+        <parent link="wrist_pitch_to_roll_connector" />
+        <child link="servo_1" />
+        <limit effort="2.94" velocity="4.76" lower="-0.15708" upper="0.959931" />
+    </joint>
+    <joint name="rightarmyaw" type="revolute">
+        <origin xyz="-2.77556e-17 -0.01693 -0.066675" rpy="-2.09638e-32 0 0" />
+        <axis xyz="-3.39378e-47 -9.86076e-32 1" />
+        <parent link="part_35" />
+        <child link="composant3_6" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="6.28319" />
+    </joint>
+    <joint name="rightelbowpitch" type="revolute">
+        <origin xyz="0.0336 0.01025 -0.029" rpy="-5.55112e-17 2.28522e-16 -6.12323e-17" />
+        <axis xyz="-1 -3.02761e-17 1.58527e-19" />
+        <parent link="composant3_2" />
+        <child link="part_42" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="2.61799" />
+    </joint>
+    <joint name="rightforearmyaw" type="revolute">
+        <origin xyz="-0.0182 -3.51065e-16 -0.065405" rpy="9.85437e-32 1.58527e-19 -8.06425e-16" />
+        <axis xyz="-3.39378e-47 -9.86076e-32 1" />
+        <parent link="part_42" />
+        <child link="composant3_3" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="6.28319" />
+    </joint>
+    <joint name="rightgripper" type="revolute">
+        <origin xyz="0.01025 -0.0028 -0.029" rpy="1.97215e-31 3.00688e-17 1.25378e-31" />
+        <axis xyz="0 1 -6.07077e-16" />
+        <parent link="composant3_4" />
+        <child link="part_53" />
+        <limit effort="2.94" velocity="4.76" lower="-0.872665" upper="0.401426" />
+    </joint>
+    <joint name="rightshoulderpitch" type="revolute">
+        <origin xyz="0.0028 0.01025 -0.029" rpy="7.76438e-32 4.37096e-16 1.77636e-16" />
+        <axis xyz="-1 0 0" />
+        <parent link="composant3_7" />
+        <child link="r_offset_shoulder_motor_holder" />
+        <limit effort="2.94" velocity="4.76" lower="0" upper="6.28319" />
+    </joint>
+    <joint name="rightshoulderroll" type="revolute">
+        <origin xyz="0.0328 0.0018 -0.01025" rpy="-1.2028e-33 9.1073e-84 1.51435e-50" />
+        <axis xyz="1.77477e-16 -1 3.02761e-17" />
+        <parent link="composant3_1" />
+        <child link="part_35" />
+        <limit effort="2.94" velocity="4.76" lower="-0.436332" upper="1.74533" />
+    </joint>
+    <joint name="rightwristpitch" type="revolute">
+        <origin xyz="-0.0028 0.01025 -0.0083" rpy="2.77556e-16 9.86076e-32 -3.13435e-31" />
+        <axis xyz="1 0 3.39378e-47" />
+        <parent link="composant3_5" />
+        <child link="part_50" />
+        <limit effort="2.94" velocity="4.76" lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="rightwristroll" type="revolute">
+        <origin xyz="0.0182 -0.0185774 -0.03941" rpy="-1.2326e-32 -6.31907e-18 -1.4721e-31" />
+        <axis xyz="1.07601e-65 -1 -6.07077e-16" />
+        <parent link="part_50" />
+        <child link="composant3" />
+        <limit effort="2.94" velocity="4.76" lower="-0.959931" upper="0.15708" />
+    </joint>
+</robot>

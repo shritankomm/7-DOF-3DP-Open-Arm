@@ -1,0 +1,64 @@
+{
+  "port": "/dev/ttyACM0",
+  "baud": 1000000,
+  "arm": "left",
+  "note": "servo_id mapping filled 2026-07-12. sign/zero_tick/ticks_per_rad/tick_min/tick_max still to be calibrated (Stage 2). ticks_per_rad ~= 651.9 for a direct-drive STS3215 (4096 ticks / 2pi rad); differs if the joint is geared.",
+  "joints": {
+    "leftshoulderpitch": {
+      "servo_id": 2,
+      "sign": 1,
+      "zero_tick": 3669,
+      "ticks_per_rad": 651.899,
+      "tick_min": 0,
+      "tick_max": 4095
+    },
+    "leftshoulderroll": {
+      "servo_id": 3,
+      "sign": 1,
+      "zero_tick": 127,
+      "ticks_per_rad": 651.899,
+      "tick_min": 0,
+      "tick_max": 1265
+    },
+    "leftarmyaw": {
+      "servo_id": 4,
+      "sign": 1,
+      "zero_tick": 337,
+      "ticks_per_rad": 651.899,
+      "tick_min": 0,
+      "tick_max": 4095
+    },
+    "leftelbowpitch": {
+      "servo_id": 5,
+      "sign": 1,
+      "zero_tick": 2047,
+      "ticks_per_rad": 651.899,
+      "tick_min": 2047,
+      "tick_max": 3754
+    },
+    "leftforearmyaw": {
+      "servo_id": 6,
+      "sign": 1,
+      "zero_tick": 310,
+      "ticks_per_rad": 651.899,
+      "tick_min": 0,
+      "tick_max": 4095
+    },
+    "leftwristpitch": {
+      "servo_id": 7,
+      "sign": 1,
+      "zero_tick": 492,
+      "ticks_per_rad": 651.899,
+      "tick_min": 0,
+      "tick_max": 1516
+    },
+    "leftwristroll": {
+      "servo_id": 8,
+      "sign": 1,
+      "zero_tick": 617,
+      "ticks_per_rad": 651.899,
+      "tick_min": 515,
+      "tick_max": 1243
+    }
+  }
+}

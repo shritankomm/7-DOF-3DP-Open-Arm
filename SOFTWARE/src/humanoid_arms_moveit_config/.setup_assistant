@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: humanoid_arms_moveit_config
+    relative_path: config/humanoid_arms.urdf
+  srdf:
+    relative_path: config/humanoid_arms.srdf
+  package_settings:
+    author_name: Shritan Kommareddy
+    author_email: shritansai09@gmail.com
+    generated_timestamp: 1783752749
