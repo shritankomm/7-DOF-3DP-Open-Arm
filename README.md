@@ -29,23 +29,21 @@ An open-source, fully 3D-printable 7-DOF pair of humanoid robotic arms designed 
 
 # Bill of Materials
 
-| # | Part Name | Qty | Unit Price | Extended Price | Notes | Where It's Needed |
-|---|-----------|-----|------------|-----------------|-------|--------------------|
-| 1 | 1 KG PETG filament roll | 2 | $15.00 | $30.00 | | Needed to print out all the parts |
-| 2 | STS3215 Servo (12V 30KG) | 14 | $24.00 | $336.00 | | Main actuators used at all joints except the top shoulder roll joint |
-| 3 | Serial Bus Servo Driver Board | 2 | $11.00 | $22.00 | | Servo driver, supplies power to the arm and connects the Pi to send movement commands to the servos |
-| 4 | Raspberry Pi 4 | 1 | $100.00 | $100.00 | | Microcontroller of the build, runs ROS and other programs |
-| 5 | 12V 10A power supply | 1 | $23.00 | $23.00 | | Connects to the wall and supplies power to the build |
-| 6 | M3 heat set inserts | 1 | $7.00 | $7.00 | Kit includes both screws and inserts; same price if bought separately | Inserts go into 3D prints to strengthen threads; screws fasten components together |
-| 7 | Logitech C270 Webcam | 1 | $18.00 | $18.00 | For vision | USB cam for vision capabilities, lets the Pi make decisions based on vision |
-| 8 | 4040 corner brackets + T-nuts | 1 | $20.00 | $20.00 | | Bottom piece of the extrusion that bolts to the table and holds the arm in place |
-| 9 | 4040 extrusion, 800mm | 1 | $27.00 | $27.00 | | Extrusion bar needed to keep the arms elevated, acts as middle support |
-| 10 | STS3250M | 2 | $75.00 | $150.00 | For the shoulder roll DOF (doesn't account for tariffs) | Servos for the shoulder pitch joints, higher torque |
-| 11 | 5264 connector, 3-pin extended wires | 1 | $7.00 | $7.00 | | Wire extensions for the motors, allows proper daisy chaining in an open loop |
-| 12 | 2x4, 60 inches | 1 | $5.00 | $5.00 | For the stand | For the stand |
-| 13 | 3" wood screws | 8 | $6.00 | $6.00 | For the stand | For the stand |
+| # | Part Name | Link | Source | Qty | Unit Price | Extended Price | Notes | Where It's Needed |
+|---|-----------|------|--------|-----|------------|-----------------|-------|--------------------|
+| 1 | 1 KG PETG filament roll | [Link](https://www.amazon.com/gp/product/B0DJS3PJVX) | Amazon | 2 | $15.00 | $30.00 | | Needed to print out all the parts |
+| 2 | STS3215 Servo (12V 30KG) | [Link](https://www.amazon.com/gp/product/B0FLPQQ4FR) | Amazon | 14 | $24.00 | $336.00 | | Main actuators used at all joints except the top shoulder roll joint |
+| 3 | Serial Bus Servo Driver Board | [Link](https://www.amazon.com/gp/product/B0DK79JNNK) | Amazon | 2 | $11.00 | $22.00 | | Servo driver, supplies power to the arm and connects the Pi to send movement commands to the servos |
+| 4 | Raspberry Pi 4 | [Link](https://www.amazon.com/gp/product/B0CK2FCG1K) | Amazon | 1 | $100.00 | $100.00 | | Microcontroller of the build, runs ROS and other programs |
+| 5 | 12V 10A power supply | [Link](https://www.amazon.com/gp/product/B07MXXXBV8) | Amazon | 1 | $23.00 | $23.00 | | Connects to the wall and supplies power to the build |
+| 6 | M3 heat set inserts | [Link](https://www.amazon.com/gp/product/B0DMNWZ15X) | Amazon | 1 | $7.00 | $7.00 | Kit includes both screws and inserts; same price if bought separately | Inserts go into 3D prints to strengthen threads; screws fasten components together |
+| 7 | Logitech C270 Webcam | [Link](https://www.amazon.com/gp/product/B004FHO5Y6) | Amazon | 1 | $18.00 | $18.00 | For vision | USB cam for vision capabilities, lets the Pi make decisions based on vision |
+| 8 | 4040 extrusion, 800mm | [Link](https://www.amazon.com/dp/B09WCSX8H3) | Amazon | 1 | $27.00 | $27.00 | | Extrusion bar needed to keep the arms elevated, acts as middle support |
+| 9 | STS3250M | [Link](https://www.aliexpress.us/item/3256811842648895.html) | AliExpress | 2 | $75.00 | $150.00 | For the shoulder roll DOF (doesn't account for tariffs) | Servos for the shoulder pitch joints, higher torque |
+| 10 | 2x4, 60 inches | [Link](https://www.homedepot.com/p/ProWood-2-in-x-4-in-x-4-ft-2-Grade-Dimensional-Lumber-271736/300524962) | Home Depot | 1 | $5.00 | $5.00 | For the stand | For the stand |
+| 11 | 3" wood screws | [Link](https://www.amazon.com/Wensilon-Screws-137pcs-lbs-Exterior-Resistant/dp/B0FCFFN4LB) | Amazon | 8 | $6.00 | $6.00 | For the stand | For the stand |
 
-**Total: $751.00**
+**Total (excluding shipping): $724.00**
 
 Link to BOM Spreadsheet - https://docs.google.com/spreadsheets/d/1n2eNZaHsdRUR-5rRqqR8Au6a7Qyu3wT80XMrWUhEQkk/edit?usp=sharing
 
