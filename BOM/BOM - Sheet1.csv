@@ -1,0 +1,14 @@
+##,Part Name,Link,Quantity ,Unit Price,Extended Price,Notes ,where it is needed 
+1,1 KG PETG filament roll,link,2,$15.00,$30.00,,Needed to print out all the parts 
+2,STS3215 Servo (12V 30KG),link,14,$24.00,$336.00,,the main actuators that will be used at all joints except for the top shoulder roll joint
+3,Serial Bus Servo Driver Board,link,2,$11.00,$22.00,,"the servo driver, will be where power is supplied to the arm and where the Pi is connected to give movement commands to the servos"
+4,Rasberry Pi 4 ,link,1,$100.00,$100.00,,the microcontroller of the build will be used to run ROS and run programs on the build
+5,12V 10A power supply,link,1,$23.00,$23.00,,power supply that will connect to the wall and be used to supply power to the build
+6,m3 heat set inserts,link,1,$7.00,$7.00,this kit has both screws and inserts but if you were to buy them seperatly it would be the same price,"the choice of heatset inserts, which go into the 3d prints to strengthen the threads, and the screws which will be used to fasten components together"
+7,Logitech C270 Webcam,link,1,$18.00,$18.00,for vision,"usb cam used for vision capabilities for the project, allows the rasberry pi to make decisions based on vision"
+8,4040 Corner brackets + Tnuts,link,1,$20.00,$20.00,,the main piece at the bottom of the extrusion which will bolt to the table and hold the arm in place
+9,4040 extrusion 800mm,link,1,$27.00,$27.00,,"the extrusion bar needed to keep the arms in the air, act as. middle support"
+10,STSS3250M (doesnt account for the tarrifs),link,2,$75.00,$150.00,for the shoulder roll DOF (doesnt account for the tarrifs),"the servos needed for the shoulder pitch joints, higher torque "
+11,5264 connector 3 pin extended wires,link,1,$7.00,$7.00,,wire extensions for the motors to allow for proper daisy chaining with the motors so they can all be connected in an open loop.
+12,,,,,$0.00,,
+,,,`,,$740.00,total,
