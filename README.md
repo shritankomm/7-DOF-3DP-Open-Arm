@@ -43,7 +43,7 @@ An open-source, fully 3D-printable 7-DOF pair of humanoid robotic arms designed 
 | 10 | 2x4, 60 inches | [Link](https://www.homedepot.com/p/ProWood-2-in-x-4-in-x-4-ft-2-Grade-Dimensional-Lumber-271736/300524962) | Home Depot | 1 | $5.00 | $5.00 | For the stand | For the stand |
 | 11 | 3" wood screws | [Link](https://www.amazon.com/Wensilon-Screws-137pcs-lbs-Exterior-Resistant/dp/B0FCFFN4LB) | Amazon | 8 | $6.00 | $6.00 | For the stand | For the stand |
 
-**Total (excluding shipping): $724.00**
+**Total (excluding shipping): $700.00**
 
 Link to BOM Spreadsheet - https://docs.google.com/spreadsheets/d/1n2eNZaHsdRUR-5rRqqR8Au6a7Qyu3wT80XMrWUhEQkk/edit?usp=sharing
 
